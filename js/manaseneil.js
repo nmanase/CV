@@ -6,8 +6,11 @@ $(function() {
   ],
   i = 0;
 
-  // On gère l'affichage du menu reponsif ppur les écrans inférieurs ou égaux à medium (< 992px)
+  // On gère l'affichage du menu reponsif pour les écrans inférieurs ou égaux à medium (< 992px)
   $(".navbar-responsive").toggle();
+  $('.navbar-responsive a').click(function(){
+    $(".navbar-responsive").hide();
+});
 
   $(".menu").click(function () {
     $(".navbar-responsive").toggle("slow");
