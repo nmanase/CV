@@ -1,8 +1,8 @@
 $(function() {
   var words = [
-    'un développeur',
-    'un designer',
-    'un animateur'
+    'Bienvenue sur mon site!',
+    'N\'hesitez pas à le parcourir',
+    'Et à me contacter!'
   ],
   i = 0;
 
