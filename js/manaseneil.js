@@ -21,7 +21,7 @@ $(function() {
     $("#word").fadeOut(function() {
       $(this).html(words[i = (i + 1) % words.length]).fadeIn();
     });
-  }, 3000);
+  }, 4000);
 
   // On gère le scroll vers les différentes sections du site
   $(".scroll").click(function() {
