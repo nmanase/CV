@@ -1,8 +1,8 @@
 $(function() {
   var words = [
     'Bienvenue sur mon site!',
-    'N\'hesitez pas à le parcourir',
-    'Et à me contacter!'
+    'N\'hesitez pas parcourir le site!',
+    'Retrouvez-moi sur les réseaux!'
   ],
   i = 0;
 
